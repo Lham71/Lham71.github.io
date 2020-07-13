@@ -58,8 +58,10 @@
 							
 							<strong><font size="5"> 1. Unsupervised learning of optimal representations </font></strong>
 							<p> </p>
-							<p><span class="image left"><img src="images/emp.png" alt="" style="width:200px;height:200px;"/></span> Discovery of useful representations is one of the core objectives of deep learning. A simple idea is to train an encoder that maximizes
-								the mutual information between its input and output. But calculating mutual information between high dimensional and continuous input/output is notoriously hard. In this project, I decreased the computationally complexity of 
+							<p><span class="image left"><img src="images/emp.png" alt="" style="width:200px;height:200px;"/></span> Discovery of useful representations is one of the core objectives of deep learning. Why? Because in most real world applications, we don't have labeled data to train models via supervised learning. And in reinforcement learning, agents should learn to perform a task in an environment that reward is sparsly-distributed. 
+								
+								" Basically it’s the idea of learning to represent the world before learning a task — and this is what babies do." <i> Yann LeCun</i> <br>
+								A simple idea is to train an encoder that maximizesthe mutual information between its input and output. But calculating mutual information between high dimensional and continuous input/output is notoriously hard. In this project, I decreased the computationally complexity of 
 								mutual information estimation by combining ideas from deep learning and control theory. </p>
 							<p> What are the applications of mutual information maximization? <a href="projects.html"> (Click to read more)</a></p>
 							<strong><font size="5"> 2. What are the dynamical mechanisms underlying memory representations in recurrent neural networks? </font></strong>
